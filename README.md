@@ -14,6 +14,7 @@ python /project_dir/sf3_bin_unpack_main.py [filepath(str)] [-o ISOLD(bool)]
 python /project_dir/sf3_bin_unpack_main.py /target_filepath/anmation_binary.bytes -o False
 ```
 最后你可以在项目根目录找到输出结果`out_animation.csv`即`/project_dir/sf3_bin_unpack_main.py`。
+***
 ### Usage Method(English Version)
 Before using this project, you need to install Python 3.8 or newer versions, configure the PATH environment variable (for Windows), and install the numpy library (you can use the `pip install numpy` command). After configuration, you can enter the following command in the command line window:
 ``` powershell
