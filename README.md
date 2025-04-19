@@ -9,7 +9,8 @@ python /project_dir/sf3_bin_unpack_main.py [filepath(str)] [-o ISOLD(bool)]
 1. filepath：目标文件，即你想要转换的动作二进制文件的目录（str）。
 2. -o(--isold): 可选参数，文件内的四元数是否经过压缩，默认为False（bool）。
 
-以下是一个使用例子，转换新版本四元数已经经过压缩后的动作文件/target_filepath/anmation_binary.bytes。
+以下是一个使用例子，转换新版本四元数已经经过压缩后的动作文件`/target_filepath/anmation_binary.bytes`。
 ``` powershell
 python /project_dir/sf3_bin_unpack_main.py /target_filepath/anmation_binary.bytes -o False
 ```
+最后你可以在项目根目录找到输出结果`out_animation.csv`即`/project_dir/sf3_bin_unpack_main.py`
