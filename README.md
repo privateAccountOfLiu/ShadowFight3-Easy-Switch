@@ -13,7 +13,7 @@ python /project_dir/sf3_bin_unpack_main.py [filepath(str)] [-o ISOLD(bool)]
 ``` powershell
 python /project_dir/sf3_bin_unpack_main.py /target_filepath/anmation_binary.bytes -o False
 ```
-最后你可以在项目根目录找到输出结果`out_animation.csv`即`/project_dir/sf3_bin_unpack_main.py`。
+最后你可以在项目根目录找到输出结果`out_animation.csv`即`/project_dir/out_animation.csv`。
 ***
 ### Usage Method(English Version)
 Before using this project, you need to install Python 3.8 or newer versions, configure the PATH environment variable (for Windows), and install the numpy library (you can use the `pip install numpy` command). After configuration, you can enter the following command in the command line window:
@@ -30,4 +30,4 @@ To convert a compressed quaternion motion file from the new version located at `
 python /project_dir/sf3_bin_unpack_main.py /target_filepath/anmation_binary.bytes -o False
 ```
 
-The output file `out_animation.csv` will be generated in the project root directory, i.e., at `/project_dir/sf3_bin_unpack_main.py`.
+The output file `out_animation.csv` will be generated in the project root directory, i.e., at `/project_dir/out_animation.csv`.
